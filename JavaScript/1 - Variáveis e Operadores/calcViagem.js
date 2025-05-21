@@ -1,0 +1,17 @@
+// Faça um programa para calcular o valor de uma viagem:
+//
+// Você terá 3 variáveis. Sendo elas:
+// 1️⃣ Preço do combustível;
+// 2️⃣ Gasto médio de combustível do carro por KM;
+// 3️⃣ Distância em KM da viagem;
+//
+// Imprima no console o valor que será gasto de combustível para realizar esta viagem.
+
+const precoCombustivel = 5.79;
+const gastoMedioPorKm = 10;
+const distanciaEmKm = 100;
+
+const valorGasto = (distanciaEmKm / gastoMedioPorKm) * precoCombustivel;
+console.log(
+  `O valor da sua viagem é de R$:${valorGasto.toFixed(2).replace(".", ",")}.`
+);
