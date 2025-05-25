@@ -1,0 +1,4 @@
+1 - Crie uma classe para representar carros.
+Os carros possuem uma marca, uma cor e um gasto médio de combustível por quilômetro rodado.
+Crie um método que, dada a quantidade de quilômetros e o preço do combustível, calcule o valor gasto em reais para realizar este percurso.
+
