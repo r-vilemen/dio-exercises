@@ -24,4 +24,4 @@ console.log(
     .calcularGasto(100, 5)
     .toFixed(2)
     .replace(".", ",")}`
-); // 100 km e R$ 5,00 o litro
+);
